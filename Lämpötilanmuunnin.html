@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lämpötilanmuunnin</title>
+  <script src="Lämpömuunin\Lämpötila.js"></script>
+</head>
+<body>
+  <h1>Lämpötilanmuunnin</h1>
+  
+  <label for="Lisääfarenheit">Lisää farenheit:</label>
+  <input type="text" id="Lisääfarenheit">
+  <label for="decimalPlacesFahrenheit">Decimaalin tarkkuus:</label>
+  <select id="decimalPlacesFahrenheit">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select>
+  <button onclick="MuunnaFaareneiks()">Muunna celsiukseen</button>
+  <p>Celsius: <span id="celsius"></span></p>
+  
+  <label for="Sijoitacelsius">Sijoita celsius:</label>
+  <input type="text" id="Sijoitacelsius">
+  <label for="decimalPlacesCelsius">Decimaalin tarkkuus:</label>
+  <select id="decimalPlacesCelsius">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select>
+  <button onclick="MuunnaCelssius()">Muuta Farenheiteiks</button>
+  <p>Fahrenheit: <span id="Faarit"></span></p>
+</body>
+</html>
